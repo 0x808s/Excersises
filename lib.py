@@ -47,6 +47,17 @@ def print_user():
 book_list = []
 user_list = []
 
+# Create book objects
+Book("Lord Of The Rings", "J.R.R Tolkien", "TOL", "9780261103252")
+Book("The Hunger Games", "Suzanne Collins", "COL", "9781407132082")
+Book("A Tale Of Two Cities", "Charles Dickens", "DIC", "97818532262647")
+Book("Harry Potter", "J.K.Rowling", "ROW", "9780439321624")
+
+# Create user objects
+User("Johnny", "12 Maryland st")
+User("Bill", "107 Happytime rd")
+User("Maximillion", "107 Saddness rd")
+User("Leonard", "99 Building av")
 
 # Add a new library user
 def add_user():
@@ -154,24 +165,3 @@ while new_action:
         print("\n**** That was not a valid choice ***\n")
 
 
-# Create book objects
-Book("Lord Of The Rings", "J.R.R Tolkien", "TOL", "9780261103252")
-Book("The Hunger Games", "Suzanne Collins", "COL", "9781407132082")
-Book("A Tale Of Two Cities", "Charles Dickens", "DIC", "97818532262647")
-Book("Harry Potter", "J.K.Rowling", "ROW", "9780439321624")
-
-# Create user objects
-User("Johnny", "12 Maryland st")
-User("Bill", "107 Happytime rd")
-User("Maximillion", "107 Saddness rd")
-User("Leonard", "99 Building av")
-
-# Print_info()
-lend_book()
-print("\n*********************************\n")
-return_book()
-find_book()
-find_user()
-add_book()
-add_user()
-print_user()
